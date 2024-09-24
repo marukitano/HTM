@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Button Event</title>
+</head>
+<body>
+<h1>Test Button Event</h1>
+<button id="meinButton">Klick mich!</button>
+
+<script>
+// in die Konstante button wird die Referenz der ID gespeichert
+const button = document.getElementById('meinButton');
+
+// Event-Listener für Klick-Ereignis hinzufügen
+button.addEventListener
+(
+    'click', function() 
+    {
+        alert('Button wurde geklickt!');
+    }
+);
+</script>
+</body>
+</html>

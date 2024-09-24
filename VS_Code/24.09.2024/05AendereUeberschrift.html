@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Ändere Überschrift</title>
+</head>
+<body>
+<h1 id="headline">Alte Überschrift</h1>
+
+<script>
+// in die Konstante ueberschrift wird die Referenz der ID gespeichert
+const ueberschrift = document.getElementById('headline');
+
+// Änderung des inhalts der Referenz
+ueberschrift.textContent = 'Neue Überschrift';
+</script>
+</body>
+</html>
